@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author       = { "Roberto Estrada" => "robestradac@gmail.com",
   					         "Rui Araújo" => "ruka.araujo@gmail.com" }
   s.platform     = :ios, '7.0'
-  s.source_files = 'src', 'src/**/*.{h,m,mm,cpp}'
+  s.source_files = 'src', 'src/**/*.{h,m,mm,cpp}', 'libs/**/*.h'
   s.resources    = ["res/*.txt"]
   s.requires_arc = true
   s.vendored_libraries = 'libs/OpenSSL-iOS/lib/libcrypto.a', 'libs/OpenSSL-iOS/lib/libssl.a', 'libs/Qt5-Core-iOS/lib/libQt5Core.a'
