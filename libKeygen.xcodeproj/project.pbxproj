@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62A79FB4187203560017C194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A79FB3187203560017C194 /* Foundation.framework */; };
+		62A7A02F187208040017C194 /* AliceGermanyKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FDB187208040017C194 /* AliceGermanyKeygen.cpp */; };
+		62A7A030187208040017C194 /* AliceItalyKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FDD187208040017C194 /* AliceItalyKeygen.cpp */; };
+		62A7A031187208040017C194 /* AndaredKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FDF187208040017C194 /* AndaredKeygen.cpp */; };
+		62A7A032187208040017C194 /* AxtelKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FE1187208040017C194 /* AxtelKeygen.cpp */; };
+		62A7A033187208040017C194 /* CabovisaoSagemKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FE3187208040017C194 /* CabovisaoSagemKeygen.cpp */; };
+		62A7A034187208040017C194 /* ComtrendKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FE5187208040017C194 /* ComtrendKeygen.cpp */; };
+		62A7A035187208040017C194 /* ConnKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FE7187208040017C194 /* ConnKeygen.cpp */; };
+		62A7A036187208040017C194 /* DiscusKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FE9187208040017C194 /* DiscusKeygen.cpp */; };
+		62A7A037187208040017C194 /* DlinkKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FEB187208040017C194 /* DlinkKeygen.cpp */; };
+		62A7A038187208040017C194 /* EasyBoxKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FED187208040017C194 /* EasyBoxKeygen.cpp */; };
+		62A7A039187208040017C194 /* EircomKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FEF187208040017C194 /* EircomKeygen.cpp */; };
+		62A7A03A187208040017C194 /* HuaweiKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FF1187208040017C194 /* HuaweiKeygen.cpp */; };
+		62A7A03B187208040017C194 /* InfostradaKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FF3187208040017C194 /* InfostradaKeygen.cpp */; };
+		62A7A03C187208040017C194 /* InterCableKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FF5187208040017C194 /* InterCableKeygen.cpp */; };
+		62A7A03D187208040017C194 /* Keygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FF7187208040017C194 /* Keygen.cpp */; };
+		62A7A03E187208040017C194 /* MaxcomKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FF9187208040017C194 /* MaxcomKeygen.cpp */; };
+		62A7A03F187208040017C194 /* MegaredKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FFB187208040017C194 /* MegaredKeygen.cpp */; };
+		62A7A040187208040017C194 /* OnoKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FFD187208040017C194 /* OnoKeygen.cpp */; };
+		62A7A041187208040017C194 /* OteBAUDKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79FFF187208040017C194 /* OteBAUDKeygen.cpp */; };
+		62A7A042187208040017C194 /* OteHuaweiKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A001187208040017C194 /* OteHuaweiKeygen.cpp */; };
+		62A7A043187208040017C194 /* OteKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A003187208040017C194 /* OteKeygen.cpp */; };
+		62A7A044187208040017C194 /* PBSKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A005187208040017C194 /* PBSKeygen.cpp */; };
+		62A7A045187208040017C194 /* PirelliKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A007187208040017C194 /* PirelliKeygen.cpp */; };
+		62A7A046187208040017C194 /* PtvKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A009187208040017C194 /* PtvKeygen.cpp */; };
+		62A7A047187208040017C194 /* SkyV1Keygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A00B187208040017C194 /* SkyV1Keygen.cpp */; };
+		62A7A048187208040017C194 /* Speedport500Keygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A00D187208040017C194 /* Speedport500Keygen.cpp */; };
+		62A7A049187208040017C194 /* TecomKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A00F187208040017C194 /* TecomKeygen.cpp */; };
+		62A7A04A187208040017C194 /* TeletuKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A011187208040017C194 /* TeletuKeygen.cpp */; };
+		62A7A04B187208040017C194 /* TelseyKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A013187208040017C194 /* TelseyKeygen.cpp */; };
+		62A7A04C187208040017C194 /* ThomsonKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A015187208040017C194 /* ThomsonKeygen.cpp */; };
+		62A7A04D187208040017C194 /* VerizonKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A018187208040017C194 /* VerizonKeygen.cpp */; };
+		62A7A04E187208040017C194 /* WifimediaRKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A01A187208040017C194 /* WifimediaRKeygen.cpp */; };
+		62A7A04F187208040017C194 /* Wlan2Keygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A01C187208040017C194 /* Wlan2Keygen.cpp */; };
+		62A7A050187208040017C194 /* Wlan6Keygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A01E187208040017C194 /* Wlan6Keygen.cpp */; };
+		62A7A051187208040017C194 /* ZyxelKeygen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A020187208040017C194 /* ZyxelKeygen.cpp */; };
+		62A7A052187208040017C194 /* AliceConfigParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A023187208040017C194 /* AliceConfigParser.cpp */; };
+		62A7A053187208040017C194 /* AliceMagicInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A025187208040017C194 /* AliceMagicInfo.cpp */; };
+		62A7A054187208040017C194 /* OTEHuaweiConfigParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A027187208040017C194 /* OTEHuaweiConfigParser.cpp */; };
+		62A7A055187208040017C194 /* TeleTuConfigParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A029187208040017C194 /* TeleTuConfigParser.cpp */; };
+		62A7A056187208040017C194 /* TeleTuMagicInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A02B187208040017C194 /* TeleTuMagicInfo.cpp */; };
+		62A7A057187208040017C194 /* WirelessMatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A7A02D187208040017C194 /* WirelessMatcher.cpp */; };
+		62A7A05A187208BB0017C194 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A7A058187208BB0017C194 /* libcrypto.a */; };
+		62A7A05B187208BB0017C194 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A7A059187208BB0017C194 /* libssl.a */; };
+		62A7A05D187208C60017C194 /* libQt5Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A7A05C187208C60017C194 /* libQt5Core.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62A79FAE187203560017C194 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		62A79FB0187203560017C194 /* libKeygen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKeygen.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A79FB3187203560017C194 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62A79FDB187208040017C194 /* AliceGermanyKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AliceGermanyKeygen.cpp; sourceTree = "<group>"; };
+		62A79FDC187208040017C194 /* AliceGermanyKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliceGermanyKeygen.h; sourceTree = "<group>"; };
+		62A79FDD187208040017C194 /* AliceItalyKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AliceItalyKeygen.cpp; sourceTree = "<group>"; };
+		62A79FDE187208040017C194 /* AliceItalyKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliceItalyKeygen.h; sourceTree = "<group>"; };
+		62A79FDF187208040017C194 /* AndaredKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AndaredKeygen.cpp; sourceTree = "<group>"; };
+		62A79FE0187208040017C194 /* AndaredKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndaredKeygen.h; sourceTree = "<group>"; };
+		62A79FE1187208040017C194 /* AxtelKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AxtelKeygen.cpp; sourceTree = "<group>"; };
+		62A79FE2187208040017C194 /* AxtelKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxtelKeygen.h; sourceTree = "<group>"; };
+		62A79FE3187208040017C194 /* CabovisaoSagemKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CabovisaoSagemKeygen.cpp; sourceTree = "<group>"; };
+		62A79FE4187208040017C194 /* CabovisaoSagemKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CabovisaoSagemKeygen.h; sourceTree = "<group>"; };
+		62A79FE5187208040017C194 /* ComtrendKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ComtrendKeygen.cpp; sourceTree = "<group>"; };
+		62A79FE6187208040017C194 /* ComtrendKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComtrendKeygen.h; sourceTree = "<group>"; };
+		62A79FE7187208040017C194 /* ConnKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConnKeygen.cpp; sourceTree = "<group>"; };
+		62A79FE8187208040017C194 /* ConnKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnKeygen.h; sourceTree = "<group>"; };
+		62A79FE9187208040017C194 /* DiscusKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DiscusKeygen.cpp; sourceTree = "<group>"; };
+		62A79FEA187208040017C194 /* DiscusKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscusKeygen.h; sourceTree = "<group>"; };
+		62A79FEB187208040017C194 /* DlinkKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DlinkKeygen.cpp; sourceTree = "<group>"; };
+		62A79FEC187208040017C194 /* DlinkKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DlinkKeygen.h; sourceTree = "<group>"; };
+		62A79FED187208040017C194 /* EasyBoxKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EasyBoxKeygen.cpp; sourceTree = "<group>"; };
+		62A79FEE187208040017C194 /* EasyBoxKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyBoxKeygen.h; sourceTree = "<group>"; };
+		62A79FEF187208040017C194 /* EircomKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EircomKeygen.cpp; sourceTree = "<group>"; };
+		62A79FF0187208040017C194 /* EircomKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EircomKeygen.h; sourceTree = "<group>"; };
+		62A79FF1187208040017C194 /* HuaweiKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HuaweiKeygen.cpp; sourceTree = "<group>"; };
+		62A79FF2187208040017C194 /* HuaweiKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuaweiKeygen.h; sourceTree = "<group>"; };
+		62A79FF3187208040017C194 /* InfostradaKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InfostradaKeygen.cpp; sourceTree = "<group>"; };
+		62A79FF4187208040017C194 /* InfostradaKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfostradaKeygen.h; sourceTree = "<group>"; };
+		62A79FF5187208040017C194 /* InterCableKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InterCableKeygen.cpp; sourceTree = "<group>"; };
+		62A79FF6187208040017C194 /* InterCableKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterCableKeygen.h; sourceTree = "<group>"; };
+		62A79FF7187208040017C194 /* Keygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Keygen.cpp; sourceTree = "<group>"; };
+		62A79FF8187208040017C194 /* Keygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keygen.h; sourceTree = "<group>"; };
+		62A79FF9187208040017C194 /* MaxcomKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxcomKeygen.cpp; sourceTree = "<group>"; };
+		62A79FFA187208040017C194 /* MaxcomKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxcomKeygen.h; sourceTree = "<group>"; };
+		62A79FFB187208040017C194 /* MegaredKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MegaredKeygen.cpp; sourceTree = "<group>"; };
+		62A79FFC187208040017C194 /* MegaredKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MegaredKeygen.h; sourceTree = "<group>"; };
+		62A79FFD187208040017C194 /* OnoKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OnoKeygen.cpp; sourceTree = "<group>"; };
+		62A79FFE187208040017C194 /* OnoKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnoKeygen.h; sourceTree = "<group>"; };
+		62A79FFF187208040017C194 /* OteBAUDKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OteBAUDKeygen.cpp; sourceTree = "<group>"; };
+		62A7A000187208040017C194 /* OteBAUDKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OteBAUDKeygen.h; sourceTree = "<group>"; };
+		62A7A001187208040017C194 /* OteHuaweiKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OteHuaweiKeygen.cpp; sourceTree = "<group>"; };
+		62A7A002187208040017C194 /* OteHuaweiKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OteHuaweiKeygen.h; sourceTree = "<group>"; };
+		62A7A003187208040017C194 /* OteKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OteKeygen.cpp; sourceTree = "<group>"; };
+		62A7A004187208040017C194 /* OteKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OteKeygen.h; sourceTree = "<group>"; };
+		62A7A005187208040017C194 /* PBSKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PBSKeygen.cpp; sourceTree = "<group>"; };
+		62A7A006187208040017C194 /* PBSKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSKeygen.h; sourceTree = "<group>"; };
+		62A7A007187208040017C194 /* PirelliKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PirelliKeygen.cpp; sourceTree = "<group>"; };
+		62A7A008187208040017C194 /* PirelliKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PirelliKeygen.h; sourceTree = "<group>"; };
+		62A7A009187208040017C194 /* PtvKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PtvKeygen.cpp; sourceTree = "<group>"; };
+		62A7A00A187208040017C194 /* PtvKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PtvKeygen.h; sourceTree = "<group>"; };
+		62A7A00B187208040017C194 /* SkyV1Keygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SkyV1Keygen.cpp; sourceTree = "<group>"; };
+		62A7A00C187208040017C194 /* SkyV1Keygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyV1Keygen.h; sourceTree = "<group>"; };
+		62A7A00D187208040017C194 /* Speedport500Keygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Speedport500Keygen.cpp; sourceTree = "<group>"; };
+		62A7A00E187208040017C194 /* Speedport500Keygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speedport500Keygen.h; sourceTree = "<group>"; };
+		62A7A00F187208040017C194 /* TecomKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TecomKeygen.cpp; sourceTree = "<group>"; };
+		62A7A010187208040017C194 /* TecomKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TecomKeygen.h; sourceTree = "<group>"; };
+		62A7A011187208040017C194 /* TeletuKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TeletuKeygen.cpp; sourceTree = "<group>"; };
+		62A7A012187208040017C194 /* TeleTuKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeleTuKeygen.h; sourceTree = "<group>"; };
+		62A7A013187208040017C194 /* TelseyKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TelseyKeygen.cpp; sourceTree = "<group>"; };
+		62A7A014187208040017C194 /* TelseyKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelseyKeygen.h; sourceTree = "<group>"; };
+		62A7A015187208040017C194 /* ThomsonKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThomsonKeygen.cpp; sourceTree = "<group>"; };
+		62A7A016187208040017C194 /* ThomsonKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThomsonKeygen.h; sourceTree = "<group>"; };
+		62A7A017187208040017C194 /* unknown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unknown.h; sourceTree = "<group>"; };
+		62A7A018187208040017C194 /* VerizonKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VerizonKeygen.cpp; sourceTree = "<group>"; };
+		62A7A019187208040017C194 /* VerizonKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerizonKeygen.h; sourceTree = "<group>"; };
+		62A7A01A187208040017C194 /* WifimediaRKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WifimediaRKeygen.cpp; sourceTree = "<group>"; };
+		62A7A01B187208040017C194 /* WifimediaRKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifimediaRKeygen.h; sourceTree = "<group>"; };
+		62A7A01C187208040017C194 /* Wlan2Keygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wlan2Keygen.cpp; sourceTree = "<group>"; };
+		62A7A01D187208040017C194 /* Wlan2Keygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wlan2Keygen.h; sourceTree = "<group>"; };
+		62A7A01E187208040017C194 /* Wlan6Keygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wlan6Keygen.cpp; sourceTree = "<group>"; };
+		62A7A01F187208040017C194 /* Wlan6Keygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wlan6Keygen.h; sourceTree = "<group>"; };
+		62A7A020187208040017C194 /* ZyxelKeygen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZyxelKeygen.cpp; sourceTree = "<group>"; };
+		62A7A021187208040017C194 /* ZyxelKeygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZyxelKeygen.h; sourceTree = "<group>"; };
+		62A7A023187208040017C194 /* AliceConfigParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AliceConfigParser.cpp; sourceTree = "<group>"; };
+		62A7A024187208040017C194 /* AliceConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliceConfigParser.h; sourceTree = "<group>"; };
+		62A7A025187208040017C194 /* AliceMagicInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AliceMagicInfo.cpp; sourceTree = "<group>"; };
+		62A7A026187208040017C194 /* AliceMagicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliceMagicInfo.h; sourceTree = "<group>"; };
+		62A7A027187208040017C194 /* OTEHuaweiConfigParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OTEHuaweiConfigParser.cpp; sourceTree = "<group>"; };
+		62A7A028187208040017C194 /* OTEHuaweiConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTEHuaweiConfigParser.h; sourceTree = "<group>"; };
+		62A7A029187208040017C194 /* TeleTuConfigParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TeleTuConfigParser.cpp; sourceTree = "<group>"; };
+		62A7A02A187208040017C194 /* TeleTuConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeleTuConfigParser.h; sourceTree = "<group>"; };
+		62A7A02B187208040017C194 /* TeleTuMagicInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TeleTuMagicInfo.cpp; sourceTree = "<group>"; };
+		62A7A02C187208040017C194 /* TeleTuMagicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeleTuMagicInfo.h; sourceTree = "<group>"; };
+		62A7A02D187208040017C194 /* WirelessMatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WirelessMatcher.cpp; path = src/WirelessMatcher.cpp; sourceTree = "<group>"; };
+		62A7A02E187208040017C194 /* WirelessMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WirelessMatcher.h; path = src/WirelessMatcher.h; sourceTree = "<group>"; };
+		62A7A058187208BB0017C194 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "libs/OpenSSL-iOS/lib/libcrypto.a"; sourceTree = "<group>"; };
+		62A7A059187208BB0017C194 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "libs/OpenSSL-iOS/lib/libssl.a"; sourceTree = "<group>"; };
+		62A7A05C187208C60017C194 /* libQt5Core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQt5Core.a; path = "libs/Qt5-Core-iOS/lib/libQt5Core.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62A79FAD187203560017C194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A7A05D187208C60017C194 /* libQt5Core.a in Frameworks */,
+				62A7A05A187208BB0017C194 /* libcrypto.a in Frameworks */,
+				62A7A05B187208BB0017C194 /* libssl.a in Frameworks */,
+				62A79FB4187203560017C194 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62A79FA7187203560017C194 = {
+			isa = PBXGroup;
+			children = (
+				62A79FD9187207EE0017C194 /* Sources */,
+				62A79FB2187203560017C194 /* Frameworks */,
+				62A79FB1187203560017C194 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62A79FB1187203560017C194 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62A79FB0187203560017C194 /* libKeygen.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62A79FB2187203560017C194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62A7A05C187208C60017C194 /* libQt5Core.a */,
+				62A7A058187208BB0017C194 /* libcrypto.a */,
+				62A7A059187208BB0017C194 /* libssl.a */,
+				62A79FB3187203560017C194 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62A79FD9187207EE0017C194 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				62A79FDA187208040017C194 /* algorithms */,
+				62A7A022187208040017C194 /* config */,
+				62A7A02D187208040017C194 /* WirelessMatcher.cpp */,
+				62A7A02E187208040017C194 /* WirelessMatcher.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		62A79FDA187208040017C194 /* algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				62A79FDB187208040017C194 /* AliceGermanyKeygen.cpp */,
+				62A79FDC187208040017C194 /* AliceGermanyKeygen.h */,
+				62A79FDD187208040017C194 /* AliceItalyKeygen.cpp */,
+				62A79FDE187208040017C194 /* AliceItalyKeygen.h */,
+				62A79FDF187208040017C194 /* AndaredKeygen.cpp */,
+				62A79FE0187208040017C194 /* AndaredKeygen.h */,
+				62A79FE1187208040017C194 /* AxtelKeygen.cpp */,
+				62A79FE2187208040017C194 /* AxtelKeygen.h */,
+				62A79FE3187208040017C194 /* CabovisaoSagemKeygen.cpp */,
+				62A79FE4187208040017C194 /* CabovisaoSagemKeygen.h */,
+				62A79FE5187208040017C194 /* ComtrendKeygen.cpp */,
+				62A79FE6187208040017C194 /* ComtrendKeygen.h */,
+				62A79FE7187208040017C194 /* ConnKeygen.cpp */,
+				62A79FE8187208040017C194 /* ConnKeygen.h */,
+				62A79FE9187208040017C194 /* DiscusKeygen.cpp */,
+				62A79FEA187208040017C194 /* DiscusKeygen.h */,
+				62A79FEB187208040017C194 /* DlinkKeygen.cpp */,
+				62A79FEC187208040017C194 /* DlinkKeygen.h */,
+				62A79FED187208040017C194 /* EasyBoxKeygen.cpp */,
+				62A79FEE187208040017C194 /* EasyBoxKeygen.h */,
+				62A79FEF187208040017C194 /* EircomKeygen.cpp */,
+				62A79FF0187208040017C194 /* EircomKeygen.h */,
+				62A79FF1187208040017C194 /* HuaweiKeygen.cpp */,
+				62A79FF2187208040017C194 /* HuaweiKeygen.h */,
+				62A79FF3187208040017C194 /* InfostradaKeygen.cpp */,
+				62A79FF4187208040017C194 /* InfostradaKeygen.h */,
+				62A79FF5187208040017C194 /* InterCableKeygen.cpp */,
+				62A79FF6187208040017C194 /* InterCableKeygen.h */,
+				62A79FF7187208040017C194 /* Keygen.cpp */,
+				62A79FF8187208040017C194 /* Keygen.h */,
+				62A79FF9187208040017C194 /* MaxcomKeygen.cpp */,
+				62A79FFA187208040017C194 /* MaxcomKeygen.h */,
+				62A79FFB187208040017C194 /* MegaredKeygen.cpp */,
+				62A79FFC187208040017C194 /* MegaredKeygen.h */,
+				62A79FFD187208040017C194 /* OnoKeygen.cpp */,
+				62A79FFE187208040017C194 /* OnoKeygen.h */,
+				62A79FFF187208040017C194 /* OteBAUDKeygen.cpp */,
+				62A7A000187208040017C194 /* OteBAUDKeygen.h */,
+				62A7A001187208040017C194 /* OteHuaweiKeygen.cpp */,
+				62A7A002187208040017C194 /* OteHuaweiKeygen.h */,
+				62A7A003187208040017C194 /* OteKeygen.cpp */,
+				62A7A004187208040017C194 /* OteKeygen.h */,
+				62A7A005187208040017C194 /* PBSKeygen.cpp */,
+				62A7A006187208040017C194 /* PBSKeygen.h */,
+				62A7A007187208040017C194 /* PirelliKeygen.cpp */,
+				62A7A008187208040017C194 /* PirelliKeygen.h */,
+				62A7A009187208040017C194 /* PtvKeygen.cpp */,
+				62A7A00A187208040017C194 /* PtvKeygen.h */,
+				62A7A00B187208040017C194 /* SkyV1Keygen.cpp */,
+				62A7A00C187208040017C194 /* SkyV1Keygen.h */,
+				62A7A00D187208040017C194 /* Speedport500Keygen.cpp */,
+				62A7A00E187208040017C194 /* Speedport500Keygen.h */,
+				62A7A00F187208040017C194 /* TecomKeygen.cpp */,
+				62A7A010187208040017C194 /* TecomKeygen.h */,
+				62A7A011187208040017C194 /* TeletuKeygen.cpp */,
+				62A7A012187208040017C194 /* TeleTuKeygen.h */,
+				62A7A013187208040017C194 /* TelseyKeygen.cpp */,
+				62A7A014187208040017C194 /* TelseyKeygen.h */,
+				62A7A015187208040017C194 /* ThomsonKeygen.cpp */,
+				62A7A016187208040017C194 /* ThomsonKeygen.h */,
+				62A7A017187208040017C194 /* unknown.h */,
+				62A7A018187208040017C194 /* VerizonKeygen.cpp */,
+				62A7A019187208040017C194 /* VerizonKeygen.h */,
+				62A7A01A187208040017C194 /* WifimediaRKeygen.cpp */,
+				62A7A01B187208040017C194 /* WifimediaRKeygen.h */,
+				62A7A01C187208040017C194 /* Wlan2Keygen.cpp */,
+				62A7A01D187208040017C194 /* Wlan2Keygen.h */,
+				62A7A01E187208040017C194 /* Wlan6Keygen.cpp */,
+				62A7A01F187208040017C194 /* Wlan6Keygen.h */,
+				62A7A020187208040017C194 /* ZyxelKeygen.cpp */,
+				62A7A021187208040017C194 /* ZyxelKeygen.h */,
+			);
+			name = algorithms;
+			path = src/algorithms;
+			sourceTree = "<group>";
+		};
+		62A7A022187208040017C194 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				62A7A023187208040017C194 /* AliceConfigParser.cpp */,
+				62A7A024187208040017C194 /* AliceConfigParser.h */,
+				62A7A025187208040017C194 /* AliceMagicInfo.cpp */,
+				62A7A026187208040017C194 /* AliceMagicInfo.h */,
+				62A7A027187208040017C194 /* OTEHuaweiConfigParser.cpp */,
+				62A7A028187208040017C194 /* OTEHuaweiConfigParser.h */,
+				62A7A029187208040017C194 /* TeleTuConfigParser.cpp */,
+				62A7A02A187208040017C194 /* TeleTuConfigParser.h */,
+				62A7A02B187208040017C194 /* TeleTuMagicInfo.cpp */,
+				62A7A02C187208040017C194 /* TeleTuMagicInfo.h */,
+			);
+			name = config;
+			path = src/config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62A79FAF187203560017C194 /* Keygen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A79FD3187203570017C194 /* Build configuration list for PBXNativeTarget "Keygen" */;
+			buildPhases = (
+				62A79FAC187203560017C194 /* Sources */,
+				62A79FAD187203560017C194 /* Frameworks */,
+				62A79FAE187203560017C194 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keygen;
+			productName = libkeygen;
+			productReference = 62A79FB0187203560017C194 /* libKeygen.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62A79FA8187203560017C194 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Glass Pixel Software";
+			};
+			buildConfigurationList = 62A79FAB187203560017C194 /* Build configuration list for PBXProject "Keygen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62A79FA7187203560017C194;
+			productRefGroup = 62A79FB1187203560017C194 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62A79FAF187203560017C194 /* Keygen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62A79FAC187203560017C194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A7A045187208040017C194 /* PirelliKeygen.cpp in Sources */,
+				62A7A02F187208040017C194 /* AliceGermanyKeygen.cpp in Sources */,
+				62A7A040187208040017C194 /* OnoKeygen.cpp in Sources */,
+				62A7A037187208040017C194 /* DlinkKeygen.cpp in Sources */,
+				62A7A049187208040017C194 /* TecomKeygen.cpp in Sources */,
+				62A7A039187208040017C194 /* EircomKeygen.cpp in Sources */,
+				62A7A043187208040017C194 /* OteKeygen.cpp in Sources */,
+				62A7A041187208040017C194 /* OteBAUDKeygen.cpp in Sources */,
+				62A7A057187208040017C194 /* WirelessMatcher.cpp in Sources */,
+				62A7A03A187208040017C194 /* HuaweiKeygen.cpp in Sources */,
+				62A7A04E187208040017C194 /* WifimediaRKeygen.cpp in Sources */,
+				62A7A033187208040017C194 /* CabovisaoSagemKeygen.cpp in Sources */,
+				62A7A048187208040017C194 /* Speedport500Keygen.cpp in Sources */,
+				62A7A04C187208040017C194 /* ThomsonKeygen.cpp in Sources */,
+				62A7A04F187208040017C194 /* Wlan2Keygen.cpp in Sources */,
+				62A7A04A187208040017C194 /* TeletuKeygen.cpp in Sources */,
+				62A7A034187208040017C194 /* ComtrendKeygen.cpp in Sources */,
+				62A7A04B187208040017C194 /* TelseyKeygen.cpp in Sources */,
+				62A7A03B187208040017C194 /* InfostradaKeygen.cpp in Sources */,
+				62A7A035187208040017C194 /* ConnKeygen.cpp in Sources */,
+				62A7A052187208040017C194 /* AliceConfigParser.cpp in Sources */,
+				62A7A056187208040017C194 /* TeleTuMagicInfo.cpp in Sources */,
+				62A7A050187208040017C194 /* Wlan6Keygen.cpp in Sources */,
+				62A7A032187208040017C194 /* AxtelKeygen.cpp in Sources */,
+				62A7A03E187208040017C194 /* MaxcomKeygen.cpp in Sources */,
+				62A7A038187208040017C194 /* EasyBoxKeygen.cpp in Sources */,
+				62A7A044187208040017C194 /* PBSKeygen.cpp in Sources */,
+				62A7A03F187208040017C194 /* MegaredKeygen.cpp in Sources */,
+				62A7A031187208040017C194 /* AndaredKeygen.cpp in Sources */,
+				62A7A04D187208040017C194 /* VerizonKeygen.cpp in Sources */,
+				62A7A03C187208040017C194 /* InterCableKeygen.cpp in Sources */,
+				62A7A046187208040017C194 /* PtvKeygen.cpp in Sources */,
+				62A7A055187208040017C194 /* TeleTuConfigParser.cpp in Sources */,
+				62A7A054187208040017C194 /* OTEHuaweiConfigParser.cpp in Sources */,
+				62A7A053187208040017C194 /* AliceMagicInfo.cpp in Sources */,
+				62A7A047187208040017C194 /* SkyV1Keygen.cpp in Sources */,
+				62A7A030187208040017C194 /* AliceItalyKeygen.cpp in Sources */,
+				62A7A036187208040017C194 /* DiscusKeygen.cpp in Sources */,
+				62A7A051187208040017C194 /* ZyxelKeygen.cpp in Sources */,
+				62A7A042187208040017C194 /* OteHuaweiKeygen.cpp in Sources */,
+				62A7A03D187208040017C194 /* Keygen.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		62A79FD1187203570017C194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "libs/OpenSSL-iOS/include/** libs/Qt5-Core-iOS/include/**";
+			};
+			name = Debug;
+		};
+		62A79FD2187203570017C194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "libs/OpenSSL-iOS/include/** libs/Qt5-Core-iOS/include/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62A79FD4187203570017C194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libkeygen.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"libs/OpenSSL-iOS/lib",
+					"libs/Qt5-Core-iOS/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Keygen;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		62A79FD5187203570017C194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libkeygen.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"libs/OpenSSL-iOS/lib",
+					"libs/Qt5-Core-iOS/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Keygen;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62A79FAB187203560017C194 /* Build configuration list for PBXProject "Keygen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A79FD1187203570017C194 /* Debug */,
+				62A79FD2187203570017C194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A79FD3187203570017C194 /* Build configuration list for PBXNativeTarget "Keygen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A79FD4187203570017C194 /* Debug */,
+				62A79FD5187203570017C194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62A79FA8187203560017C194 /* Project object */;
+}
